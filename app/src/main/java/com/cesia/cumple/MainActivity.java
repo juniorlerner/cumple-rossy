@@ -34,17 +34,17 @@ public class MainActivity extends Activity {
     private static final int TEXTO = Color.rgb(90, 25, 50);
     private static final int ROSA_TEXTO_SUAVE = Color.rgb(190, 120, 150);
 
-    private static final String CARTA =
-            "Feliz cumpleaños, mi amor\n\n" +
-            "Aunque hoy no pueda estar contigo para darte un abrazo, quería escribirte estas palabras " +
-            "para que supieras lo importante que eres para mí. Desde que llegaste a mi vida, muchas cosas " +
-            "cambiaron para bien. Me has regalado momentos muy bonitos, risas, confianza y recuerdos que " +
-            "guardo con mucho cariño. Eres una personita muy increíble y me siento afortunado de poder " +
-            "compartir parte de mi vida contigo.\n\n" +
-            "Me da tristeza no poder acompañarte hoy porque pues soy yo quien está lejos, pero aun así " +
-            "quería que sintieras que estoy contigo de alguna manera. Espero que disfrutes muchísimo " +
-            "este día, que te consientan mucho y que recibas todo el cariño que te mereces. " +
-            "Te extraño y tengo muchas ganas de volver a verte 💗";
+        private static final String CARTA =
+            "❤️ ¡Feliz cumpleaños, mi amor! ❤️" + (char) 10 + (char) 10 +
+            "Hoy es un día muy especial porque nació una persona maravillosa que ocupa un lugar muy " +
+            "importante en mi corazón. Quiero desearte toda la felicidad del mundo, que Dios te bendiga, " +
+            "te cuide y te permita cumplir cada uno de tus sueños." + (char) 10 + (char) 10 +
+            "Gracias por existir, por regalarme tu cariño y por hacer que mis días sean más bonitos. " +
+            "Deseo seguir compartiendo muchos momentos a tu lado, verte sonreír y estar contigo tanto " +
+            "en los días buenos como en los difíciles." + (char) 10 + (char) 10 +
+            "Nunca olvides lo especial que eres para mí. Te mereces lo más bonito de esta vida. " +
+            "Que este nuevo año esté lleno de amor, salud, alegría y muchas bendiciones." + (char) 10 + (char) 10 +
+            "¡Feliz cumpleaños, mi vida! Te amo muchísimo. ❤️🎂😘";
 
     private static final String[] DESEOS = {
             "Salud, hoy y siempre",
